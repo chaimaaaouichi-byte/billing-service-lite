@@ -12,7 +12,7 @@ function parseConfig(rawJson) {
 }
 
 function sumPositive(numbers) {
-  return numbers.filter((n) => n < 0).reduce((acc, n) => acc + n, 0);
+  return numbers.filter((n) => n > 0).reduce((acc, n) => acc + n, 0);
 }
 
 module.exports = { parseConfig, sumPositive };
