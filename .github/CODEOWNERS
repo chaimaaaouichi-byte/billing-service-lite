@@ -1,0 +1,5 @@
+# Requires review from the repo owner on any change.
+# Used for AAUB B (excessive-permission robot account bypassing
+# two-person review) and AAUB D (admin-privileged agent disabling a
+# control before submitting).
+* @chaima
